@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="./styles.css">
-  <link rel="stylesheet" href="../dist/output.css">
-  <title>Frontend Mentor | Blog preview card</title>
-</head>
-<body class="bg-yellow ">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+		<link rel="stylesheet" href="./styles.css" />
+		<link rel="stylesheet" href="../dist/output.css" />
+		<title>Frontend Mentor | Blog preview card</title>
+	</head>
+	<body class="flex flex-col justify-center items-center bg-yellow min-h-screen font-medium">
+		<main
+			class="max-w-[384px] bg-white flex flex-col items-center p-6 rounded-[20px] gap-6 border border-black drop-shadow-black"
+		>
+			<img
+				src="../assets/images/illustration-article.svg"
+				alt="Eccentric yellow and black designs with html angle brackets"
+				class="rounded-[10px] h-[200px]"
+			/>
+			<div class="flex flex-col gap-3">
+				<span class="bg-yellow w-fit px-3 py-1 rounded font-extrabold text-sm">Learning</span>
+				<p class="text-sm">Published 21 Dec 2023</p>
+				<h1 class="font-extrabold text-2xl hover:text-yellow hover:cursor-pointer w-fit">
+					HTML & CSS foundations
+				</h1>
+				<p class="text-grey">
+					These languages are the backbone of every website, defining structure, content, and
+					presentation.
+				</p>
+			</div>
+			<div class="flex self-start items-center gap-3 font-bold text-sm">
+				<img src="../assets/images/image-avatar.webp" alt="Greg Hooper" class="h-8" />
+				<span class="">Greg Hooper</span>
+			</div>
+		</main>
 
-  Learning
-
-  Published 21 Dec 2023 
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
-</body>
+		<div class="mt-6 text-sm">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="underline"
+				>Frontend Mentor</a
+			>. Coded by <a href="https://github.com/mauLovera" class="underline">Mauricio Lovera</a>.
+		</div>
+	</body>
 </html>
