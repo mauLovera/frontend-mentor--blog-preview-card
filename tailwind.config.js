@@ -47,6 +47,13 @@ module.exports = {
           fontWeight: 500,
         },
       ],
+      "body-xs": [
+        "12px",
+        {
+          lineHeight: 1.5,
+          fontWeight: 500,
+        },
+      ],
       "blog-author": [
         "14px",
         {
