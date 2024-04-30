@@ -33,21 +33,21 @@ module.exports = {
           fontWeight: 800,
         },
       ],
-      body: [
+      base: [
         "16px",
         {
           lineHeight: 1.5,
           fontWeight: 500,
         },
       ],
-      "body-sm": [
+      "sm": [
         "14px",
         {
           lineHeight: 1.5,
           fontWeight: 500,
         },
       ],
-      "body-xs": [
+      "xs": [
         "12px",
         {
           lineHeight: 1.5,
