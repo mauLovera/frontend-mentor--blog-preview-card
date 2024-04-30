@@ -15,10 +15,10 @@
     <title>Frontend Mentor | Blog Preview Card</title>
   </head>
   <body
-    class="bg-primary-yellow flex min-h-[100svh] flex-col items-center justify-center px-6"
+    class="flex min-h-[100svh] flex-col items-center justify-center bg-primary-yellow px-6"
   >
     <main
-      class="rounded-card drop-shadow-card has-[.hover\:text-primary-yellow:hover]:drop-shadow-card-hover max-w-card group relative flex flex-col items-center gap-6 bg-white p-6 outline outline-1 outline-black transition-all"
+      class="group relative flex max-w-card flex-col items-center gap-6 rounded-card bg-white p-6 outline outline-1 outline-black drop-shadow-card transition-all has-[.hover\:text-primary-yellow:hover]:drop-shadow-card-hover"
     >
       <figure class="flex h-[200px] w-full justify-center">
         <img
@@ -30,17 +30,17 @@
       </figure>
       <div class="flex flex-col gap-3">
         <div
-          class="px-3 py-1 rounded text-blog-genre-sm sm:text-blog-genre bg-primary-yellow w-fit"
+          class="px-3 py-1 text-xs font-extrabold rounded w-fit bg-primary-yellow sm:text-sm"
         >
           Learning
         </div>
-        <p class="text-xs sm:text-sm">Published 21 Dec 2023</p>
+        <p class="text-xs font-medium sm:text-sm">Published 21 Dec 2023</p>
         <h1
-          class="text-lg transition-colors sm:text-xl hover:text-primary-yellow w-fit hover:cursor-pointer"
+          class="text-lg font-extrabold transition-colors w-fit hover:cursor-pointer hover:text-primary-yellow sm:text-xl"
         >
           HTML & CSS foundations
         </h1>
-        <p class="text-sm sm:text-base text-grey">
+        <p class="text-sm font-medium text-grey sm:text-base">
           These languages are the backbone of every website, defining structure,
           content, and presentation.
         </p>
@@ -51,7 +51,7 @@
           alt="Greg Hooper"
           class="size-8"
         />
-        <p class="text-blog-author">Greg Hooper</p>
+        <p class="text-sm font-extrabold">Greg Hooper</p>
       </div>
     </main>
   </body>

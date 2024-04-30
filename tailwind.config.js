@@ -23,56 +23,30 @@ module.exports = {
         "24px",
         {
           lineHeight: 1.5,
-          fontWeight: 800,
         },
       ],
       lg: [
         "20px",
         {
           lineHeight: 1.5,
-          fontWeight: 800,
         },
       ],
       base: [
         "16px",
         {
           lineHeight: 1.5,
-          fontWeight: 500,
         },
       ],
-      "sm": [
+      sm: [
         "14px",
         {
           lineHeight: 1.5,
-          fontWeight: 500,
         },
       ],
-      "xs": [
+      xs: [
         "12px",
         {
           lineHeight: 1.5,
-          fontWeight: 500,
-        },
-      ],
-      "blog-author": [
-        "14px",
-        {
-          lineHeight: 1.5,
-          fontWeight: 800,
-        },
-      ],
-      "blog-genre": [
-        "14px",
-        {
-          lineHeight: 1.5,
-          fontWeight: 800,
-        },
-      ],
-      "blog-genre-sm": [
-        "12px",
-        {
-          lineHeight: 1.5,
-          fontWeight: 800,
         },
       ],
     },
